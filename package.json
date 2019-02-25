@@ -1,0 +1,28 @@
+{
+  "name": "mono-chromatic",
+  "version": "0.1.0",
+  "description": "Reimagining the bandcamp embed",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build ./client/index.html",
+    "lint": "eslint --ext=.js,.html . && sass-lint -c -v -q",
+    "watch": "parcel ./client/index.html -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskalandunas/mono-chromatic.git"
+  },
+  "author": "Mike Skalandunas <mskalandunas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mskalandunas/mono-chromatic/issues"
+  },
+  "homepage": "https://github.com/mskalandunas/mono-chromatic#readme",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-mosaic": "^0.1.2",
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.11.0",
+    "sass-lint": "^1.12.1"
+  }
+}
